@@ -8,4 +8,6 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return s[n:k+1]
+print(main("itmarkaz",2,5))
+print(main("apple",2,2))

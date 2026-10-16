@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[n::1]
+print(main("itmarkaz",3))
+print(main("apple",1))
